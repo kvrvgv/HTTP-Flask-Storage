@@ -13,7 +13,7 @@ Authorization: Basic
 
 `POST /upload`
 
-`form-data: %filename%: %file$`
+`form-data: file: $file$`
 #### Responses
 - *200* (everything is OK)
 - *400* (file not attached)
